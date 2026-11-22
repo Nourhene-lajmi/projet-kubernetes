@@ -1,0 +1,7 @@
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  name: mon-app-config
+data:
+  APP_ENV: "demo"
+  APP_MESSAGE: "Bonjour depuis Kubernetes"
